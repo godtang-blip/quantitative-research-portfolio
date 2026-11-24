@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="340" viewBox="0 0 850 340" role="img" aria-labelledby="title desc">
+  <title id="title">Simulated fill outside the order limit</title>
+  <desc id="desc">Each legacy fill exceeds its allowed adverse deviation by five basis points. The corrected fill has zero adverse deviation beyond the limit.</desc>
+  <rect width="850" height="340" rx="14" fill="#f3f7fb"/>
+  <g fill="#152a40" font-family="sans-serif">
+    <text x="36" y="44" font-size="25" font-weight="700">Synthetic fills respect the order limit after correction</text>
+    <text x="36" y="74" font-size="15">Adverse price beyond limit, as basis points of the synthetic order limit</text>
+    <path d="M260 109V269 M760 109V269" fill="none" stroke="#acbcc9" stroke-width="1"/>
+    <text x="260" y="102" text-anchor="middle" font-size="14">0 bp</text>
+    <text x="760" y="102" text-anchor="middle" font-size="14">5 bp</text>
+    <text x="36" y="147" font-size="16">Buy limit · legacy</text>
+    <text x="36" y="177" font-size="16">Buy limit · corrected</text>
+    <text x="36" y="228" font-size="16">Sell limit · legacy</text>
+    <text x="36" y="258" font-size="16">Sell limit · corrected</text>
+    <path d="M260 142H760 M260 223H760" fill="none" stroke="#9d562a" stroke-width="12"/>
+    <circle cx="260" cy="173" r="7" fill="#087368"/>
+    <circle cx="260" cy="254" r="7" fill="#087368"/>
+    <text x="36" y="308" font-size="14">Synthetic regression fixtures · 5 bp modeled slippage · residual debited separately</text>
+  </g>
+</svg>
