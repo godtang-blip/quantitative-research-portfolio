@@ -1,0 +1,5 @@
+case,unit,legacy,corrected,limit,corrected_residual_slippage_per_unit
+pre_entry_stop,exit events,1,0,,
+pre_entry_target,exit events,1,0,,
+buy_limit_touch,synthetic price units,100.05,100,100,0.05
+sell_limit_touch,synthetic price units,108.9455,109,109,0.0545

@@ -1,0 +1,8 @@
+check,scope,count,count_unit,status,provenance
+corrected_synthetic_tests,portable Python 3.12 tests,21,tests,pass,isolated Phase 5 unittest run
+legacy_regression_checks,original-engine synthetic counterexamples,4,failed assertions,fail,private Phase 3 test log
+short_window_repeatability,frozen-input restricted replay,24,paired comparisons,pass,private Phase 3 repeated replay
+archive_reconciliation,stored original v5.4.1 output,40,scenarios,pass,private Phase 2 audit
+historical_v53_match,2018 to 2023,,not applicable,fail,private Phase 2 and 3 historical reproduction audit
+independent_holdout,corrected model,,not applicable,unverified,no independent evaluation
+corrected_full_period,corrected model,,not applicable,unverified,no full-period replay

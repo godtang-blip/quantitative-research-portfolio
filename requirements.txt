@@ -1,0 +1,2 @@
+# CPython 3.12.14 was used for the clean-room test run.
+# The execution module and tests use only the Python standard library.
